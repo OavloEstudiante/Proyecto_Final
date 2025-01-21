@@ -91,9 +91,8 @@ int main() {
             printf ("No hay cambio\n");
         }
 
-        // Preguntar si desea realizar otra operación
         printf("\nDesea realizar otra operacion? (s/n): ");
-        getchar(); // Limpiar el buffer de entrada para capturar correctamente el caracter
+        getchar(); 
         scanf("%c", &continuar);
 
     } while (continuar == 's' || continuar == 'S');
